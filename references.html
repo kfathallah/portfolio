@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المراجع — البورتفوليو المهني</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Cairo:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="refs">
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-right">
+      <img src="assets/imef-logo.jpg" alt="معهد مهن التربية بقربة" class="topbar-logo">
+      <div class="topbar-text">معهد مهن التربية والتكوين بقربة<small>IMEF Korba</small></div>
+    </div>
+    <div class="topbar-left">
+      <div class="topbar-text" style="text-align:left">الجمهوريّة التونسيّة<small>وزارة التربية</small></div>
+      <img src="assets/ministry-logo.png" alt="وزارة التربية" class="topbar-logo ministry">
+    </div>
+  </div>
+</div>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="brand-compact" style="text-decoration:none">
+      <div class="mark">ن.س</div>
+      <span>البورتفوليو</span>
+    </a>
+    <button class="nav-toggle" aria-label="القائمة">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html" >الاستقبال</a></li>
+      <li><a href="theorique.html" >التكوين النظري</a></li>
+      <li><a href="terrain.html" >التكوين الميداني</a></li>
+      <li><a href="recherches.html" >الأبحاث التربويّة</a></li>
+      <li><a href="projets.html" >المشاريع البيداغوجيّة</a></li>
+      <li><a href="cv.html" >السيرة الذاتيّة</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container"></div>
+</header>
+
+<section class="section">
+  <div class="container-narrow">
+    <div style="margin-bottom:2.5rem">
+      <span class="kicker">المرجعيّة الأولى</span>
+      <h2>الإطار القانوني</h2>
+      <p style="color:var(--muted);margin-top:.5rem">النصوص التشريعيّة والتنظيميّة المؤطّرة لمسار التكوين والتفقّد.</p>
+      <ul style="list-style:none;padding:0;margin-top:1.5rem;background:#fff;border-radius:var(--radius);padding:1.5rem;border:1px solid var(--line);box-shadow:var(--shadow-sm)" id="refs-juridiques"></ul>
+    </div>
+
+    <div>
+      <span class="kicker">المرجعيّة الثانية</span>
+      <h2>المراجع العلميّة</h2>
+      <p style="color:var(--muted);margin-top:.5rem">المراجع الأكاديميّة المعتمدة في بناء التحليلات التأمّليّة.</p>
+      <ul style="list-style:none;padding:0;margin-top:1.5rem;background:#fff;border-radius:var(--radius);padding:1.5rem;border:1px solid var(--line);box-shadow:var(--shadow-sm)" id="refs-scientifiques"></ul>
+    </div>
+
+    <div style="margin-top:2rem;padding:1.5rem;background:var(--accent-light);border-right:4px solid var(--accent);border-radius:var(--radius-sm)">
+      <strong style="color:var(--primary)">📌 إضافة مرجع جديد:</strong>
+      افتح ملف <code>data.js</code> وأضف عنصرًا داخل <code>references.juridiques</code> أو <code>references.scientifiques</code>.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container"></div>
+  <div class="footer-bottom"></div>
+</footer>
+
+<script src="data.js"></script>
+<script src="content_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
